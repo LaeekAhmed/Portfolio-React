@@ -54,12 +54,12 @@ export default function Navbar() {
             : "hidden"
         }
       >
-        <li className="py-6 text-4xl link1">
+        <li className="p-6 text-4xl link1">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl link1">
+        <li className="p-6 text-4xl link1">
           <Link
             onClick={handleClick}
             to="projects"
@@ -69,7 +69,7 @@ export default function Navbar() {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl link1">
+        <li className="p-6 text-4xl link1">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>

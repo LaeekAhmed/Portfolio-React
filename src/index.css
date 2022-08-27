@@ -26,6 +26,7 @@ html,body{
 .link1:hover{
     border-radius: 20px;
     background-color: rgb(135, 80, 229) !important;
+    cursor: pointer !important;
 }
 
 .hamb:hover{
