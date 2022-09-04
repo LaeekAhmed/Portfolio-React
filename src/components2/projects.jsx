@@ -55,7 +55,7 @@ export default function Work() {
                 </a>
                 <a href="https://github.com/LaeekAhmed/NoteSpot" target="blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-black font-bold text-lg">
-                    Code
+                    repo
                   </button>
                 </a>
               </div>
@@ -86,7 +86,7 @@ export default function Work() {
                 </a>
                 <a href="https://cs1xd3.online/ShowModulePublish?modulePublishId=c9e5f087-eddf-4e3d-b1e0-7ef9ea97fba4 " target="blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-black font-bold text-lg">
-                    Code
+                    repo
                   </button>
                 </a>
               </div>
@@ -116,7 +116,7 @@ export default function Work() {
                 </a>
                 <a href="https://github.com/LaeekAhmed/Portfolio-React" target="blank">
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-black font-bold text-lg">
-                    Code
+                    repo
                   </button>
                 </a>
               </div>
@@ -145,7 +145,7 @@ export default function Work() {
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 m-2 bg-white text-black font-bold text-lg">
-                    Code
+                    repo
                   </button>
                 </a>
               </div>
