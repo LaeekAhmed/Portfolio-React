@@ -15,18 +15,23 @@ html,body{
 
 .navList li{
     margin-right: 4rem;
-    padding: 0% 2rem;
     cursor: pointer;
 }
 
 .link1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    /* padding: 0% 2rem; */
 }
 
 .link1:hover{
     border-radius: 20px;
     background-color: rgb(135, 80, 229) !important;
+    /* padding: 0% 2rem; */
     cursor: pointer;
+}
+
+.navLink{
+    padding: 0% 2rem;
 }
 
 .hamb:hover{

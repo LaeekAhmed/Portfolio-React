@@ -8,7 +8,8 @@ import Skills from "./components2/skills";
 function App() {
   return (
     <div>
-      <div className=""></div>
+      {/* the funcs called below basically return a set of nested div's.
+      so basically it is nothing but HTML */}
       <Navbar />
       <Home />
       <Work />

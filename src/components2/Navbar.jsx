@@ -17,18 +17,18 @@ export default function Navbar() {
       {/*menu*/}
       <div>
         <ul className="navList hidden md:flex text-2xl">
-          <li className="hover:bg-violet-600 rounded-lg bg-auto link1">
-            <Link to="home" smooth={true} duration={500}>
+          <li className="link1">
+            <Link className="navLink" to="home" smooth={true} duration={500}>
               Home
             </Link>
           </li>
           <li className="link1">
-            <Link to="projects" smooth={true} duration={500}>
+            <Link className="navLink" to="projects" smooth={true} duration={500}>
               Projects
             </Link>
           </li>
           <li className="link1">
-            <Link to="skills" smooth={true} duration={500}>
+            <Link className="navLink" to="skills" smooth={true} duration={500}>
               Skills
             </Link>
           </li>
@@ -55,12 +55,13 @@ export default function Navbar() {
         }
       >
         <li className="p-6 text-4xl link1">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link className="navLink" onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="p-6 text-4xl link1">
           <Link
+            className="navLink"
             onClick={handleClick}
             to="projects"
             smooth={true}
@@ -70,7 +71,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="p-6 text-4xl link1">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link className="navLink" onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
