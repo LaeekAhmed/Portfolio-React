@@ -34,6 +34,11 @@ html,body{
     padding: 0% 2rem;
 }
 
+
+.about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
 .hamb:hover{
     opacity: 60%;
 }

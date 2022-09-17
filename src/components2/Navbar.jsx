@@ -32,6 +32,11 @@ export default function Navbar() {
               Skills
             </Link>
           </li>
+          <li className="link1">
+            <Link className="navLink" to="About" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
         </ul>
       </div>
       {/*Hamburger*/}

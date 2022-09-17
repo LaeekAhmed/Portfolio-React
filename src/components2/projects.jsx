@@ -3,13 +3,16 @@ import portfolio from "../assets/portfolio.png";
 import hospital from "../assets/hospital.jpg";
 import vector from "../assets/vector.png";
 import notes from "../assets/Notes.png";
+import Expire from "../Expire";
 
 export default function Work() {
   let [link, setLink] = useState(
     "https://cs1xd3.online/ShowModulePublish?modulePublishId=8a5076e8-edea-422d-991b-f8a2044161e7"
   );
   let [itr, setItr] = useState(Number(0)); // iterator for list of project links (items)
+  const [nav, setNav] = useState(false);
   const chng_link = () => {
+    setNav(!nav);
     let items = [
       "https://nodeproject11.herokuapp.com/"
       ,"https://cs1xd3.online/ShowModulePublish?modulePublishId=8a5076e8-edea-422d-991b-f8a2044161e7"];
@@ -25,7 +28,7 @@ export default function Work() {
 
   return (
     <div name="projects" className="w-full text-white pt-12">
-      <h1 className="text-5xl font-bold p-8 head1">Projects;</h1>
+      <h1 className="text-4xl font-bold p-8 head1">Projects;</h1>
       <div className="mx-auto px-8 flex flex-col flex-wrap justify-center w-10/12 h-full">
         <div className="pb-8"></div>
         {/* Main block */}
@@ -167,8 +170,9 @@ export default function Work() {
           onClick={chng_link}
           className="bg-violet-800 p-5 text-3xl rounded-3xl flex mx-auto link1"
         >
-          Next ➡️
+          {!nav ? "Next ➡️" : "Back ⬅️"}
         </button>
+        {nav ? <Expire delay="5000">The next project may take a few seconds to load. My sincere apologies.</Expire> : <></>}
       </div>
     </div>
   );
