@@ -53,11 +53,11 @@ html,body{
     font-size: 12;
     font-weight: 700;
     color:rgb(220, 180, 132);
-    text-shadow: 1px 1px 1px blueviolet,
-        1px 2px 1px blueviolet,
-        1px 3px 1px blueviolet,
-        1px 4px 1px blueviolet,
-        1px 5px 1px blueviolet;
+    text-shadow: 1px 1px 1px black,
+        1px 2px 1px black,
+        1px 3px 1px black,
+        1px 4px 1px black,
+        1px 5px 1px black;
 }
 
 @media all and (max-width: 1200px){
